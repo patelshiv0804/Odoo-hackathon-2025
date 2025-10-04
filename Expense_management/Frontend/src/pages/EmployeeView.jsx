@@ -112,7 +112,7 @@ export default function EmployeeView() {
       <div className="page-header">
         <div>
           <h1>My Expenses</h1>
-          <p className="page-description">Manage and track your expense submissions</p>
+         
         </div>
         <div className="header-actions">
           <button className="btn btn-secondary" onClick={handleUploadReceipt}>
