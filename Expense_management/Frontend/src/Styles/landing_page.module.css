@@ -192,15 +192,29 @@
 }
 
 .heroPlaceholder {
-    width: 350px;
-    height: 350px;
+    /* width: 350px; */
+    /* height: 350px; */
     background-color: #fff;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    font-size: 120px;
+    padding: 28px;
+    overflow: hidden;
+    /* keep a small min-size so layout doesn't collapse on narrow screens */
+    min-width: 240px;
+    min-height: 240px;
+}
+
+/* responsive image inside the placeholder */
+.heroImg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+    max-width: 420px;
+    max-height: 420px;
 }
 
 /* Features Section */

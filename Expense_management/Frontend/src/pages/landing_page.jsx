@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Button from "./Button";
-// import styles from "../styles/landing_page.css";
 import styles from "../styles/landing_page.module.css";
 import Login from "../pages/Login";
 import Sign_up from "../pages/Sign_up";
+import heroIllustration from "../../Images/Expense_Management.png"; // fixed path
 
 export default function Landing_page() {
     const [showLoginModal, setShowLoginModal] = useState(false);
@@ -68,7 +68,11 @@ export default function Landing_page() {
                 </div>
                 <div className={styles.heroImage}>
                     <div className={styles.heroPlaceholder}>
-                        <span>📊</span>
+                        <img
+                            src={heroIllustration}
+                            alt="Expense management illustration"
+                            className={styles.heroImg}
+                        />
                     </div>
                 </div>
             </section>
