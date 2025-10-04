@@ -1,7 +1,7 @@
-import styles from '../styles/Authapage_styles/login.module.css';
-import Login_details from '../component/Auth_component/Login_details';
+import styles from '../styles/login.module.css';
+// import Login_details from '../component/Login_details';
+import Login_details from '../component/Login_details';
 import login_img from '../../Images/Login_image.png';
-const Id = import.meta.env.VITE_CLIENT_ID || 123;
 
 export default function Login({ setShowLoginModal, setShowSignupModal, setIsLoggedIn }) {
     return (
@@ -10,12 +10,12 @@ export default function Login({ setShowLoginModal, setShowSignupModal, setIsLogg
                 <img className={styles.image} src={login_img} alt="" />
             </div>
 
-            <GoogleOAuthProvider clientId={Id}>
+    
                 <Login_details
                     setShowLoginModal={setShowLoginModal}
                     setShowSignupModal={setShowSignupModal}
                     setIsLoggedIn={setIsLoggedIn}/>
-            </GoogleOAuthProvider>
+
         </div>
     );
 }
