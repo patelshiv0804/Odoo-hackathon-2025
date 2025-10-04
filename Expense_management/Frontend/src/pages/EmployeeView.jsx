@@ -125,17 +125,17 @@ export default function EmployeeView() {
       </div>
 
       <div className="summary-cards">
-        <div className="summary-card">
+        <div className="summary-card_1">
           <div className="summary-label">To Submit</div>
           <div className="summary-value">${totals.toSubmit.toFixed(2)}</div>
           <div className="summary-status status-draft">Draft</div>
         </div>
-        <div className="summary-card">
+        <div className="summary-card_2">
           <div className="summary-label">Waiting Approval</div>
           <div className="summary-value">${totals.waitingApproval.toFixed(2)}</div>
           <div className="summary-status status-waiting">Pending</div>
         </div>
-        <div className="summary-card">
+        <div className="summary-card_3">
           <div className="summary-label">Approved</div>
           <div className="summary-value">${totals.approved.toFixed(2)}</div>
           <div className="summary-status status-approved">Completed</div>

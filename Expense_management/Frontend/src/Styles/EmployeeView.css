@@ -207,12 +207,31 @@
   margin-bottom: 30px;
 }
 
-.summary-card {
+.summary-card_1 {
   background-color: #ffffff;
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
   border: 1px solid #FFF5E6;
+  border-left: 4px solid #727272;
+}
+
+.summary-card_2 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #FFF5E6;
+  border-left: 4px solid #fbd046;
+}
+
+.summary-card_3 {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid #FFF5E6;
+  border-left: 4px solid #35d43b;
 }
 
 .summary-label {
