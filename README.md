@@ -6,8 +6,8 @@
 |:------|:------|
 | **Shiv Patel**  | patelshiv0804@gmail.com |
 | **Kartik Jaju**  | kartikjaju0@gmail.com |
-| **Jagrat Pandya**  | vivekgokhale23@gmail.com |
-| **Vivek Gokhale**  | jagratpandya36@gmail.com |
+| **Jagrat Pandya**  | jagratpandya36@gmail.com |
+| **Vivek Gokhale**  | vivekgokhale23@gmail.com |
 
 ---
 ## 🎥 Project Demo  
