@@ -25,6 +25,7 @@
 
 Managing company expenses manually is tedious, error-prone, and non-transparent.  
 Our **Expense Management System** automates the process — from **submission to approval**, integrating **multi-role access**, **currency conversion**, and **approval workflows** for a modern enterprise experience.  
+
 ---
 
 ## 🧩 Core Features  
@@ -123,7 +124,7 @@ Our **Expense Management System** automates the process — from **submission to
 ## ⚙️ Installation & Setup 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/expense-management.git
+git clone https://github.com/patelshiv0804/Odoo-hackathon-2025.git
 cd expense-management
 
 # Install dependencies
