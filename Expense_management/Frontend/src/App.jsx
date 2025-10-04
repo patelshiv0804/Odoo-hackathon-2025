@@ -12,7 +12,7 @@ function App() {
         <Route path='/' element={<Landing_page />} />
         <Route path='/admin' element={<AdminDashboard />} />
         <Route path='/employee' element={<Employee />} />
-        <Route path='/manager' element={<Manager />} />
+        <Route path='/manager' element={<Manager />} />        
       </Routes>
     </Router>
   )

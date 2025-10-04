@@ -32,14 +32,7 @@ export default function Navbar() {
         <>
             <div className={styles.navbar}>
                 <Logo />
-
-                <div className={styles.hamburger} onClick={() => setMenuOpen(!menuOpen)}>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-
-           
+                
                 <div className={`${styles.half_navbar} ${menuOpen ? styles.show : ''}`}>
                     <li className={styles.home} onClick={() => handleNavigation('/')}>Home</li>
                     <li className={styles.about} onClick={() => handleNavigation('/about')}>About us</li>

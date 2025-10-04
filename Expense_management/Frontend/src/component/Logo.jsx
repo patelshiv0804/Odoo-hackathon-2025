@@ -1,5 +1,5 @@
 import styles from '../styles/logo.module.css'
-import Xpensa_logo from '../../logos/logo.png'
+import Xpensa_logo from "../../Logo/logo.png"
 
 export default function Logo() {
     return (

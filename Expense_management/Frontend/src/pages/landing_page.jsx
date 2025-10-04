@@ -5,6 +5,7 @@ import styles from "../styles/landing_page.module.css";
 import Login from "../pages/Login";
 import Sign_up from "../pages/Sign_up";
 import heroIllustration from "../../Images/Expense_Management.png"; // fixed path
+import Logo from "../component/Logo";
 
 export default function Landing_page() {
     const [showLoginModal, setShowLoginModal] = useState(false);
@@ -31,6 +32,7 @@ export default function Landing_page() {
     return (
         <>
             <div className={styles.navbar}>
+                <Logo />
                 <div className={styles.hamburger} onClick={() => setMenuOpen(!menuOpen)}>
                     <span></span>
                     <span></span>
@@ -38,9 +40,9 @@ export default function Landing_page() {
                 </div>
 
                 <div className={`${styles.half_navbar} ${menuOpen ? styles.show : ''}`}>
-                    <li className={styles.home} onClick={() => handleNavigation('/')}>Home</li>
-                    <li className={styles.about} onClick={() => handleNavigation('/about')}>About us</li>
-                    <li className={styles.contact} onClick={() => handleNavigation('/contact')}>Contact us</li>
+                    {/* <li className={styles.home} onClick={() => handleNavigation('/')}>Home</li> */}
+                    {/* <li className={styles.about} onClick={() => handleNavigation('/about')}>About us</li>
+                    <li className={styles.contact} onClick={() => handleNavigation('/contact')}>Contact us</li> */}
                     <Button
                         className={styles.button}
                         text="Log In"
