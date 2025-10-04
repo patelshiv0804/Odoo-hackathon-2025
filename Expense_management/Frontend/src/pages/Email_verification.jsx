@@ -1,5 +1,5 @@
-import Email_verification_details from "../component/Auth_component/Email_verification_details";
-import styles from "../styles/Authapage_styles/Email_verification.module.css";
+import Email_verification_details from "../component/Email_verification_details";
+import styles from "../styles/Email_verification.module.css";
 import Email_img from "../../Images/Enter_OTP.png"
 export default function Email_verification({ email }) {
     return (
