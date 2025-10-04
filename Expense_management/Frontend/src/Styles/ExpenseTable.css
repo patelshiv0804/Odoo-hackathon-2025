@@ -1,0 +1,218 @@
+/* .expense-table-container {
+  overflow-x: auto;
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+}
+
+.expense-table thead {
+  background-color: #f9f9f9;
+}
+
+.expense-table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #2c3e50;
+  border-bottom: 2px solid #e0e0e0;
+  font-size: 14px;
+}
+
+.expense-table tbody tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.expense-table tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+.expense-table tbody tr:hover {
+  background-color: #e8f4f8;
+}
+
+.expense-table td {
+  padding: 12px;
+  font-size: 14px;
+  color: #34495e;
+}
+
+.no-data {
+  text-align: center;
+  color: #95a5a6;
+  font-style: italic;
+  padding: 30px !important;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-draft {
+  background-color: #ecf0f1;
+  color: #7f8c8d;
+}
+
+.status-submitted {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.status-waiting {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-approved {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-rejected {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+@media (max-width: 768px) {
+  .expense-table {
+    min-width: 900px;
+  }
+} */
+
+.expense-table-container {
+  overflow-x: auto;
+}
+
+.expense-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  border: 1px solid #FFF5E6;
+}
+
+.expense-table thead {
+  background-color: #FFFAF5;
+}
+
+.expense-table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  border-bottom: 2px solid #FFF5E6;
+  font-size: 14px;
+}
+
+.expense-table tbody tr {
+  border-bottom: 1px solid #FFF5E6;
+}
+
+.expense-table tbody tr:nth-child(even) {
+  background-color: #FFFAF5;
+}
+
+.expense-table tbody tr:hover {
+  background-color: #FFF5E6;
+}
+
+.expense-table td {
+  padding: 12px;
+  font-size: 14px;
+  color: #333;
+}
+
+.no-data {
+  text-align: center;
+  color: #666;
+  font-style: italic;
+  padding: 30px !important;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-draft {
+  background-color: #ddd;
+  color: #666;
+}
+
+.status-submitted {
+  background-color: #d1ecf1;
+  color: #0c5460;
+}
+
+.status-waiting {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.status-approved {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.status-rejected {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.btn {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #FDAF39;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #e69a2a;
+}
+
+.btn-secondary {
+  background-color: #666;
+  color: #ffffff;
+}
+
+.btn-secondary:hover {
+  background-color: #555;
+}
+
+.btn-sm {
+  padding: 6px 14px;
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  .expense-table {
+    min-width: 900px;
+  }
+}
